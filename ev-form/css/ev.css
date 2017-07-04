@@ -1,0 +1,300 @@
+html,
+body {
+	background-attachment:fixed;
+	background-position:50% 50%;
+	background-size:cover;
+	margin:0;
+	padding:0;
+}
+
+.headergmg{
+	background: #002e62;
+	padding: 20px;
+}
+
+.headergmg img{
+	width: 170px;
+}
+
+.headergmg h1{
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 20px;	
+}
+
+.j-forms .steps p { 
+	color:rgba(0,0,0,.56); 
+	font-size:16px; 
+	height:36px;
+	line-height:14px; 
+	margin:0; 
+	padding:0; 
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.j-forms .steps span { 
+	color:rgba(0,0,0,.56); 
+	font-size:13px; 
+	height:13px; 
+	line-height:13px; 
+}
+
+.pasostop{
+	padding-bottom: 20px;
+}
+
+.snumero{
+	padding-left: 12px;
+}
+
+.bginfo{
+	background: #e8f1f6;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+
+.j-forms .content { padding: 25px 0 25px 0; }
+
+.j-forms .content .bginfo { padding:25px 25px 0 25px; }
+
+.j-forms .divider,
+.j-forms .divider-text { 
+	border-top:0px solid rgba(0,0,0,.12); 
+	height:0; 
+}
+
+.tituloform{
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #0a4e7f;
+	font-weight: 300;
+}
+
+.titulotext{
+	font-size: 20px;
+	text-align: center;
+	color: #0a4e7f;
+	font-weight: 300;
+	padding-bottom: 20px;
+}
+
+.fa{
+	color: #002e62;
+}
+
+.j-forms .icon-left,
+.j-forms .icon-right {
+	color:rgba(0,46,98,1);
+	font-size:17px;
+	height:38px;
+	line-height:38px !important;
+	opacity:.6;
+	position:absolute;
+	text-align:center;
+	top:5px;
+	width:42px;
+	z-index:2;
+	background-color: #fff;
+}
+
+
+.j-forms .icon-left { left:5px; border-radius: 3px;}
+
+.j-forms .icon-right { right:5px; border-radius: 3px;}
+
+.j-forms .label { 
+	font-size: 15px;
+	margin-bottom: 6px;
+	line-height: 14px;
+	height: 14px;
+	font-weight: 700;
+}
+
+.j-forms .label2 { 
+	font-size: 15px;
+	margin-bottom: 6px;
+	line-height: 15px;
+	height:35px;
+	font-weight: 700;
+	bottom: 0;
+}
+
+.j-forms .label3 { 
+	font-size: 15px;
+	margin-bottom: 6px;
+	line-height: 15px;
+	height: 50px;
+	font-weight: 700;
+	bottom: 0;
+}
+
+.j-forms .label4 { 
+	font-size: 15px;
+	margin-bottom: 6px;
+	line-height: 15px;
+	height: 60px;
+	font-weight: 700;
+	bottom: 0;
+}
+.text-center{
+	text-align: center !important;
+}
+
+#address2, 
+#connectionusa, 
+#metatrader4,
+#employmentij, 
+#otherpleasespe, 
+#natiother,
+#accountshared,
+#brokergmgreferrer{
+	display: none;
+}
+
+h3{
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+/* Steps /////////////////////////////////////*/
+
+
+
+/* Steps Default */
+.j-forms .steps { 
+	background-color:#002e62; 
+	border:5px 
+	solid #002e62; 
+	color: #fff;
+	border-radius: 3px;
+}
+
+.j-forms .steps .snumero p,
+.j-forms .steps .stitulo p{
+	color: #fff !important;
+}
+
+.j-forms .steps .snumero p{
+	font-size: 25px !important;;
+}
+
+.j-forms .steps .snumero{
+	float: left;
+	width: 30px;
+	background: #174477;
+	text-align: center;
+	margin-right: 10px;
+	border-radius: 3px;
+
+}
+
+
+.j-forms .steps .stitulo{
+}
+
+/* Steps active */
+
+.j-forms .active-step .steps { 
+	border:5px 
+	solid #0b62a6; 
+	border-radius: 3px;
+	background-color: #0b62a6;
+}
+
+.j-forms .active-step .steps::after {
+	border-color: #0b62a6 transparent !important;content: "";
+	position: absolute;
+	bottom: -12px;
+	left: 50%;
+	border-width: 12px 12px 0;
+	border-style: solid;
+	display: block;width: 0;
+	margin-left: -12px;
+
+}
+
+.j-forms .active-step .steps .snumero p,
+.j-forms .active-step .steps .stitulo p{
+	color: #fff;
+}
+
+.j-forms .active-step .steps .snumero p{
+	font-size: 25px;
+}
+
+.j-forms .active-step .steps  .snumero{
+	float: left;
+	width: 30px;
+	background: #2178bd;
+	text-align: center;
+	margin-right: 10px;
+	border-radius: 3px;
+}
+
+
+.j-forms .active-step .steps  .stitulo{
+}
+
+/* Steps passed */
+
+.j-forms .passed-step .steps { 
+	border:5px 
+	solid #474747; 
+	border-radius: 3px;
+	background: #474747 url(../img/flechaok.png) no-repeat;
+    background-position: 100% 0%; 
+    background-size: 12px;
+}
+
+.j-forms .passed-step .steps .snumero p,
+.j-forms .passed-step .steps .stitulo p{
+	color: #fff;
+}
+
+.j-forms .passed-step .steps .snumero p{
+	font-size: 25px;
+}
+
+.j-forms .passed-step .steps .snumero{
+	float: left;
+	width: 30px;
+	background: #606264;
+	text-align: center;
+	margin-right: 10px;
+	border-radius: 3px;
+
+}
+
+.j-forms .passed-step .steps .stitulo{
+}
+
+/* Footer =============================== */
+
+.j-forms .footer {
+	background-color:#002e62;
+	/*border-top:1px solid #303f9f;*/
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	border-radius:3px;
+	display:block;
+	padding:10px 25px;
+}
+.j-forms .footer:after {
+	clear:both;
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+}
+
+
+
+.multi-submit-btn{
+	background: #87cb44 !important;
+	color: #fff !important;
+	border-radius: 3px !important;
+}
+
